@@ -20,10 +20,20 @@ body{
 .box{
   width: 150px;
   height: 150px;
-  background-color: #ffa1a1;
+  background-color: #fa895d;
   border-radius:50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+
+.shadow {
+  width: 80px;
+  height: 20px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  margin-top: -10px;
+  filter: blur(2px);
+  z-index: 1;
 }
